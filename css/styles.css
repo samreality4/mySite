@@ -1,67 +1,126 @@
-
-
-.top-container {
-background-color: #dbe2ef;
-position: relative;
-padding-top: 100px;
-
-}
-
+/* General Styles */
 h1 {
-margin: 50px auto 0 auto;
-font-family: 'Roboto Slab', serif;
-font-size: 5.62rem;
-color: #66BFBF;
-line-height: 2;
+  color: #3f72af;
+  font-family: 'Roboto Slab', serif;
+  font-size: 5.62rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
 }
 
-h2{
+h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 2.625rem;
   font-weight: normal;
 }
 
-body{
+hr{
+  border-style: dotted none none;
+width: 10%;
+border-color: #EAF6F6;
+border-width: 10px;
+
+}
+
+body {
+  color: #3f72af;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #66BFBF;
 }
 
-.middle-container{
-
+/* Specific Styles */
+.bottom-container {
+  height: auto;
+  background-color: #3f72af;
+  padding: 50px;
 }
 
-.bottom-container{
-
-}
-
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 450px;
-  bottom: 200px;
-}
-
-.top-cloud{
-  position: absolute;
-  right:450px;
   bottom: 250px;
+}
 
+.btn{
+  display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3f72af;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
-.skill-row{
-width: 50%;
-margin: 100px auto 100px auto;
+.btn:hover {
+  background-color: #3f72af
 }
-.skill-one{
-float: left;
-margin-right: 30px
 
+.btn:active {
+  background-color: #3f72af;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
-.skill-two{
+
+.contact-me {
+  margin-top: 100px
+}
+.footer-name{
+  color: #EAF6F6;
+}
+
+.middle-container {
+  padding: 50px;
+}
+
+.profile{
+  margin-bottom: 50px;
+}
+.profile-image {
+  margin-top: 50px;
+  border-radius: 75%;
+}
+
+.skill-row-one {
+  width: 55%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-row-two {
+  width: 55%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-one {
+  width: 220px;
+  height: 150px;
+  border-radius: 5%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-two {
+  width: 200px;
+  height: 150px;
+  border-radius: 5%;
   float: right;
   margin-left: 30px;
 }
-.skill-three{
-  float: left;
-  margin-right: 30px;
+.mountain{
+
+}
+
+.top-container {
+  background-color: #dbe2ef;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  bottom: 360px;
 }
