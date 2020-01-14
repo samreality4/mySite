@@ -1,0 +1,67 @@
+
+
+.top-container {
+background-color: #dbe2ef;
+position: relative;
+padding-top: 100px;
+
+}
+
+h1 {
+margin: 50px auto 0 auto;
+font-family: 'Roboto Slab', serif;
+font-size: 5.62rem;
+color: #66BFBF;
+line-height: 2;
+}
+
+h2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.625rem;
+  font-weight: normal;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #66BFBF;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 450px;
+  bottom: 200px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:450px;
+  bottom: 250px;
+
+}
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+}
+.skill-one{
+float: left;
+margin-right: 30px
+
+}
+.skill-two{
+  float: right;
+  margin-left: 30px;
+}
+.skill-three{
+  float: left;
+  margin-right: 30px;
+}
