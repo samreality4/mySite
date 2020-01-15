@@ -13,12 +13,11 @@ h2 {
   font-weight: normal;
 }
 
-hr{
+hr {
   border-style: dotted none none;
-width: 10%;
-border-color: #EAF6F6;
-border-width: 10px;
-
+  width: 10%;
+  border-color: #EAF6F6;
+  border-width: 10px;
 }
 
 body {
@@ -41,22 +40,23 @@ body {
   bottom: 250px;
 }
 
-.btn{
+.btn {
   display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #3f72af;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3f72af;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
+
 .btn:hover {
-  background-color: #3f72af
+  background-color: #416b9e
 }
 
 .btn:active {
@@ -68,7 +68,8 @@ body {
 .contact-me {
   margin-top: 100px
 }
-.footer-name{
+
+.footer-name {
   color: #EAF6F6;
 }
 
@@ -76,9 +77,10 @@ body {
   padding: 50px;
 }
 
-.profile{
+.profile {
   margin-bottom: 50px;
 }
+
 .profile-image {
   margin-top: 50px;
   border-radius: 75%;
@@ -109,9 +111,8 @@ body {
   float: right;
   margin-left: 30px;
 }
-.mountain{
 
-}
+.mountain {}
 
 .top-container {
   background-color: #dbe2ef;
