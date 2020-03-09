@@ -83,7 +83,7 @@ body {
 
 .profile-image {
   margin-top: 50px;
-  border-radius: 75%;
+  border-radius: 50%;
 }
 
 .skill-row-one {
@@ -111,8 +111,6 @@ body {
   float: right;
   margin-left: 30px;
 }
-
-.mountain {}
 
 .top-container {
   background-color: #dbe2ef;
