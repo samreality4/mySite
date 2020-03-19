@@ -1,14 +1,14 @@
 /* General Styles */
 h1 {
   color: #3f72af;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 5.62rem;
   line-height: 2;
   margin: 50px auto 0 auto;
 }
 
 h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 2.625rem;
   font-weight: normal;
 }
@@ -16,13 +16,13 @@ h2 {
 hr {
   border-style: dotted none none;
   width: 10%;
-  border-color: #EAF6F6;
+  border-color: #eaf6f6;
   border-width: 10px;
 }
 
 body {
   color: #3f72af;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   text-align: center;
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #416b9e
+  background-color: #416b9e;
 }
 
 .btn:active {
@@ -66,11 +66,11 @@ body {
 }
 
 .contact-me {
-  margin-top: 100px
+  margin-top: 100px;
 }
 
 .footer-name {
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 
 .middle-container {
@@ -82,7 +82,9 @@ body {
 }
 
 .profile-image {
-  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  margin-top: 35px;
   border-radius: 50%;
 }
 
@@ -122,4 +124,59 @@ body {
   position: absolute;
   right: 450px;
   bottom: 360px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    bottom: 360px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 250px;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 250px;
+    bottom: 360px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 250px;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 200px;
+    bottom: 360px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .bottom-cloud {
+    position: absolute;
+    left: 75px;
+    bottom: 150px;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 100px;
+    bottom: 260px;
+  }
+  .mountain {
+    width: 98%;
+  }
 }
