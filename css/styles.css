@@ -123,7 +123,7 @@ body {
 .top-cloud {
   position: absolute;
   right: 450px;
-  bottom: 360px;
+  bottom: 340px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -135,7 +135,7 @@ body {
   .top-cloud {
     position: absolute;
     right: 300px;
-    bottom: 360px;
+    bottom: 340px;
   }
 }
 
@@ -148,7 +148,7 @@ body {
   .top-cloud {
     position: absolute;
     right: 250px;
-    bottom: 360px;
+    bottom: 340px;
   }
 }
 
@@ -161,7 +161,7 @@ body {
   .top-cloud {
     position: absolute;
     right: 200px;
-    bottom: 360px;
+    bottom: 340px;
   }
 }
 
