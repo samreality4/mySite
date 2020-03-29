@@ -180,3 +180,20 @@ body {
     width: 98%;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .bottom-cloud {
+    position: absolute;
+    left: 75px;
+    bottom: 150px;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 100px;
+    bottom: 220px;
+  }
+  .mountain {
+    width: 98%;
+  }
+}
+
