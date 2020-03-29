@@ -182,6 +182,10 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 4rem;
+  }
+
   .bottom-cloud {
     position: absolute;
     left: 75px;
@@ -189,11 +193,10 @@ body {
   }
   .top-cloud {
     position: absolute;
-    right: 100px;
+    right: 75px;
     bottom: 220px;
   }
   .mountain {
     width: 98%;
   }
 }
-
